@@ -3,6 +3,14 @@ Views hava a GradientDrawable Background.
 
 给几个常用的控件添加了GradientDrawable作为背景，减少需要添加纯色圆角时的重复工作，并且控件启用点击事件后会带有点击效果。
 
+## 添加依赖
+
+gradle
+
+```
+compile 'bovink.android.support:gradientview:1.0'
+```
+
 ## 使用方法
 
 在XML中使用
